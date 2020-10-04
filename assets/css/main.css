@@ -1,52 +1,30 @@
-$color-main: rgba(236, 203, 84, 1);
-$color-primary: rgba(33, 41, 77, 1);
-$color-rodape: rgba(3, 1, 4, 1);
-$color-secundary: rgba(251, 253, 253, 1);
-$color-texto-menor: rgba(51, 50, 50, 1);
-@mixin font-texto-botao {
-    font-size: 30px;
-    font-family: "Poppins";
-    font-weight: medium;
+:root {
+    --color-main: rgba(236, 203, 84, 1);
+    --color-primary: rgba(33, 41, 77, 1);
+    --color-rodape: rgba(3, 1, 4, 1);
+    --color-secundary: rgba(251, 253, 253, 1);
+    --color-texto-menor: rgba(51, 50, 50, 1);
 }
 
-@mixin font-rodape {
-    font-size: 12px;
-    font-family: "Poppins";
-    font-weight: semibold;
-}
-
-@mixin font-texto-menor {
-    font-size: 14px;
-    font-family: "Poppins";
-    font-weight: normal;
-}
-
-@mixin font-titulo {
-    font-size: 25px;
-    font-family: "Poppins";
-    font-weight: normal;
-}
-
-body {
-    max-width: 375px;
-    max-height: 812px;
-    border-radius: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 25px;
-    box-sizing: border-box;
-    background-attachment: fixed;
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    width: 100%;
 }
 
 #meunome {
-    @include font-titulo();
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: normal;
     position: absolute;
     top: 250px;
     left: 180px;
 }
 
 #estudo {
-    @include font-texto-menor()
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: normal;
 }
 
 #imgpos {
@@ -54,9 +32,6 @@ body {
     left: 160px;
     top: 52px;
     border-radius: 0px;
-    top: 52px;
-    border-radius: 0px;
-    ;
 }
 
 #lua {
@@ -69,10 +44,10 @@ body {
 .button {
     position: absolute;
     left: 41px;
-    top: 355px - 32px;
+    top: 323px;
     margin-right: 41px;
     margin-left: 40px;
-    color: $color-primary;
+    color: #21294d;
 }
 
 #dribbble,
@@ -81,9 +56,11 @@ body {
 #instagram {
     height: 74px;
     width: 294px;
-    @include font-texto-botao();
-    color: $color-main;
-    background-color: $color-primary;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: medium;
+    color: var(--color-main);
+    background-color: var(--color-primary);
 }
 
 #dribbble,
@@ -96,7 +73,9 @@ body {
 }
 
 #rodape {
-    @include font-rodape();
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: semibold;
     position: absolute;
     bottom: -29px;
     right: 145px;
