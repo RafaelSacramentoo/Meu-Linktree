@@ -109,7 +109,7 @@
     
     .container {
         display: grid;
-        height: 120vh;
+        height: 40vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
         grid-template-areas: "nav nav nav nav" "sidebar main main main" " sidebar content1 content1 content1" "sidebar footer footer footer";
@@ -139,6 +139,7 @@
         grid-area: content1;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
+        background-position: center;
     }
     
     .lua {
@@ -190,7 +191,7 @@
         margin: 1rem;
     }
     
-    @media only screen and (max-width: 550px) {
+    @media only screen and (max-width:550px) and (min-height:342px) {
         .container {
             display: grid;
             grid-template-columns: 1fr;
@@ -203,5 +204,8 @@
         .lua {
             position: relative;
             left: 168px;
+        }
+        #content {
+            position: static;
         }
     }
