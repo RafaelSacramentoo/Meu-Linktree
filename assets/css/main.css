@@ -108,10 +108,10 @@
     }
     
     .container {
-        display: grid;
-        height: 900px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+        display: block;
+        height: 300vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1.5fr 1.2fr;
         grid-template-areas: "nav nav nav nav" "sidebar main main main" " sidebar content1 content1 content1" "sidebar footer footer footer";
         grid-gap: 0.2rem;
         text-align: center;
@@ -140,11 +140,12 @@
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
         background-position: center;
+        display: block;
     }
     
     .lua {
         position: relative;
-        left: 300px;
+        left: 170px;
     }
     
     .button {
