@@ -109,7 +109,7 @@
     
     .container {
         display: block;
-        height: 300vh;
+        height: 40vh;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.2fr 1.5fr 1.2fr;
         grid-template-areas: "nav nav nav nav" "sidebar main main main" " sidebar content1 content1 content1" "sidebar footer footer footer";
@@ -135,6 +135,13 @@
 }
 */
     
+    #imgpos,
+    #avatar {
+        position: relative;
+        width: 196;
+        height: 196px;
+    }
+    
     #content1 {
         grid-area: content1;
         border-radius: var(--main-radius);
@@ -143,9 +150,13 @@
         display: block;
     }
     
-    .lua {
+    nav,
+    #lua {
         position: relative;
-        left: 170px;
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+        left: 780px;
     }
     
     .button {
@@ -192,6 +203,10 @@
         margin: 1rem;
     }
     
+    #linkedin {
+        bottom: 10px;
+    }
+    
     @media only screen and (max-width:550px) and (min-height:342px) {
         .container {
             display: grid;
@@ -206,7 +221,7 @@
             position: relative;
             left: 168px;
         }
-        #content {
+        #content1 {
             position: static;
         }
     }
