@@ -9,12 +9,13 @@
 }
 
 .container {
-    display: block;
+    display: grid;
     height: 20vh;
     grid-template-rows: 0.2fr 1.5fr 1.2fr;
     grid-template-areas: "nav nav nav nav" "sidebar main main main" " sidebar content1 content1 content1" "sidebar footer footer footer";
     grid-gap: 0.2rem;
     text-align: center;
+    position: static;
 }
 
 nav {
@@ -111,7 +112,7 @@ a {
     bottom: 10px;
 }
 
-@media only screen and (max-width: 550px) and (min-height: 342px) {
+@media only screen and (max-width: 550px) {
     .container {
         display: grid;
         grid-template-columns: 1fr;
@@ -120,5 +121,15 @@ a {
     }
     u {
         bottom: -190px;
+    }
+    main {
+        position: relative;
+        left: 270px;
+        bottom: -25px;
+    }
+    footer,
+    u {
+        bottom: -45px;
+        left: 265px;
     }
 }
