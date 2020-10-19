@@ -122,11 +122,17 @@ a {
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 4.2fr 1.2fr 1.2fr 1.2fr 1fr;
         grid-template-areas: "nav" "sidebar" "main" "footer";
+        margin-right: auto;
+        margin-left: auto;
     }
     body {
         position: relative;
         align-items: center;
-        right: 180px;
+        right: 190px;
+    }
+    #content1 {
+        position: relative;
+        top: -25px;
     }
     u {
         bottom: -190px;
