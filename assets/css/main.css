@@ -119,7 +119,7 @@ a {
 @media only screen and (max-width: 375px) {
     .container {
         display: grid;
-        height: 200px;
+        height: -40vh;
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 4.2fr 1.2fr 1.2fr 1.2fr 1fr;
         grid-template-areas: "nav" "sidebar" "main" "footer";
