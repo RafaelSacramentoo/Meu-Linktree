@@ -128,8 +128,9 @@ a {
     body {
         position: relative;
         align-items: center;
+        height: 100%;
+        width: 100%;
         right: 190px;
-        height: auto;
     }
     #content1 {
         position: relative;
