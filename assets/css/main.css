@@ -124,6 +124,7 @@ a {
         grid-template-areas: "nav" "sidebar" "main" "footer";
         margin-right: auto;
         margin-left: auto;
+        top: -30px;
     }
     body {
         position: relative;
