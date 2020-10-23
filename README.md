@@ -14,10 +14,10 @@
 
 <h5> Foi utilizado</h5>
 
-<span>
-    <img src="./assets/img/html-5.svg" width="35" height="35">
-    <img src="./assets/img/css.svg" width="35" height="35">
-</span>
+<div>
+ <img src="./assets/img/html-5.svg" width="35" height="35">
+ <img src="./assets/img/css.svg" width="35" height="35">
+</div>
     
 
 
