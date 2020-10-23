@@ -6,7 +6,7 @@
 </h6>
 
 <h6>Link do projeto: 
-    <a href="https://github.com/RafaelSacramentoo/Meu-Linktree">
+    <a href="https://rafaelsacramentoo.github.io/Meu-Linktree/">
         <u>Clique aqui</u>
     </a>
 </h6>
