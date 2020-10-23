@@ -1,6 +1,6 @@
 
 <h2>Meu Linktree V1.0</h2>
-<hr>
+
 
 <h6>O projeto foi desenvolvido para usar no meu instagram  para a galera que quer conhecer/seguir meus estudos por meio do behance, linkedin e o dribbble.
 </h6>
