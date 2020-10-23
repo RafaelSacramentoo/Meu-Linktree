@@ -21,7 +21,7 @@
     
 
 
-<a href="https://github.com/RafaelSacramentoo/Meu-Linktree">
+<a href="https://rafaelsacramentoo.github.io/Meu-Linktree/">
     <img src="./assets/img/linktree.png">
 </a>
 
